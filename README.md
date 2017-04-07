@@ -1930,7 +1930,7 @@ Other Style Guides
 ## Blocks
 
   <a name="blocks--braces"></a><a name="16.1"></a>
-  - [16.1](#blocks--braces) Use braces with all multi-line blocks.
+  - [16.1](#blocks--braces) ALWAYS use braces with single-line and multi-line blocks.
 
     ```javascript
     // bad
@@ -1938,15 +1938,12 @@ Other Style Guides
       return false;
 
     // good
-    if (test) return false;
+    if (test) { return false; }
 
     // good
     if (test) {
       return false;
     }
-
-    // bad
-    function foo() { return false; }
 
     // good
     function bar() {
