@@ -1910,10 +1910,18 @@ Other Style Guides
     const bar = c ? true : false;
     const baz = c ? false : true;
 
+    const transitNumber = user && user.bankAccount ? user.bankAccount.transitNumber : null;
+
     // good
     const foo = a || b;
     const bar = !!c;
     const baz = !c;
+
+    let bankAccountTransitNumber = null;
+
+    if (user && user.bankAccount) {
+      transitNumber = user.bankAccount.transitNumber;
+    }
     ```
 
 **[⬆ back to top](#table-of-contents)**
