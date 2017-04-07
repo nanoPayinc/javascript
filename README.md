@@ -2438,8 +2438,8 @@ Other Style Guides
       url: 'https://airbnb.com/',
       data: { name: 'John' },
     })
-      .done(() => console.log('Congratulations!'))
-      .fail(() => console.log('You have failed this city.'));
+    .done(() => console.log('Congratulations!'))
+    .fail(() => console.log('You have failed this city.'));
     ```
 
 **[⬆ back to top](#table-of-contents)**
