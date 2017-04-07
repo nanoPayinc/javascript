@@ -1893,14 +1893,7 @@ Other Style Guides
       ? "bar"
       : value1 > value2 ? "baz" : null;
 
-    // better
-    const maybeNull = value1 > value2 ? 'baz' : null;
-
-    const foo = maybe1 > maybe2
-      ? 'bar'
-      : maybeNull;
-
-    // best
+    // good
     const maybeNull = value1 > value2 ? 'baz' : null;
 
     const foo = maybe1 > maybe2 ? 'bar' : maybeNull;
