@@ -2790,6 +2790,19 @@ Other Style Guides
     ];
     ```
 
+  <a name="naming--Wrap-Up"></a>
+  - [22.10](#naming--Wrap-Up) In case of doubts, follow this scheme provided by Google:
+
+    * functionNamesLikeThis
+    * variableNamesLikeThis
+    * ClassNamesLikeThis
+    * methodNamesLikeThis
+    * CONSTANT_VALUES_LIKE_THIS
+    * foo.namespaceNamesLikeThis.bar
+    * filenameslikethis.js.
+
+    Source: https://google.github.io/styleguide/javascriptguide.xml?showone=Naming#Naming
+
 **[⬆ back to top](#table-of-contents)**
 
 
